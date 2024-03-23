@@ -1,12 +1,12 @@
-**Note: This template is currently in beta and may undergo significant changes. Use it at your own risk.**
+**Acknowledgement: Huge thanks to [Vaishnav Manoj](https://a.vaishnav.one/) for providing this template.**
 
 
 1. **Clone or Download Repository:**
 
-   - Clone or download the repository containing the modular academic portfolio template from [GitHub](https://github.com/vaishnav-mk/academic-portfolio).
+   - Clone or download the repository containing the modular academic portfolio template from [GitHub](https://github.com/MajorTimberWolf/abhinav-academic-website).
 
    ```bash
-    git clone https://github.com/vaishnav-mk/academic-portfolio
+    git clone https://github.com/MajorTimberWolf/abhinav-academic-website
     cd academic-portfolio
     npm install --legacy-peer-deps
     npm run dev
@@ -14,12 +14,12 @@
 
 2. **Update Data:**
 
-   - Update the [`data.json`](https://github.com/vaishnav-mk/academic-portfolio/blob/master/src/data/data.json) file located in the `data` directory with your academic information. Modify the content within the `"info"` section to reflect your personal details, such as name, location, university, about section, social media links, footer text, and navbar links.
+   - Update the [`data.json`](https://github.com/MajorTimberWolf/abhinav-academic-website/tree/main/src/data) file located in the `data` directory with your academic information. Modify the content within the `"info"` section to reflect your personal details, such as name, location, university, about section, social media links, footer text, and navbar links.
    - Update the sections under `"sections"` with your experience, projects, and community details. Ensure you update the title, data, and other relevant fields such as title, location, duration, description, links, image, and tags.
 
 3. **Add Images:**
 
-   - Upload your images to the [`lib/images`](https://github.com/vaishnav-mk/academic-portfolio/tree/master/src/lib/images) folder. Make sure the image filenames match the ones specified in the `data.json` file for each section.
+   - Upload your images to the [`lib/images`](https://github.com/MajorTimberWolf/abhinav-academic-website/tree/main/src/lib/images) folder. Make sure the image filenames match the ones specified in the `data.json` file for each section.
 
 4. **Customize Styles (Optional):**
 
