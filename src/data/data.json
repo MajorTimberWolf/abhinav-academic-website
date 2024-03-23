@@ -1,0 +1,231 @@
+{
+	"info": {
+		"about": {
+			"description": [
+				"I am currently working as a part-time Software Engineer at Google, focusing on chain-of-thought prompting techniques to enhance the reasoning capabilities of large language models for multi-step tasks. In addition, I am collaborating with Dr. Gayathri M on research pertaining to Quantum Key Distribution Protocol and Error Correction techniques, aimed at advancing our understanding of Quantum Communication. Furthermore, I contribute to the Satoshi Division at [NextTechLab](https://nexttechlab.club), researching the interconnections between Neural Networks and Quantum Computing."
+			],
+			"links": [
+				{
+					"icon": "mdi:document",
+					"text": "Resume",
+					"link": "https://drive.google.com/file/d/1XjMSZS-jSOD17uQ7zoL1aSpw_0Ey5QiB/view?usp=drivesdk"
+				}
+			]
+		},
+		"name": "Abhinav Rajeev Kumar",
+		"image": "Abhinav-pfp.jpeg",
+		"location": "Chennai, India",
+		"university": "SRM Institute of Science & Technology",
+		"socials": {
+			"Email": {
+				"icon": "ic:baseline-email",
+				"link": "mailto:abku2504@gmail.com"
+			},
+			"Twitter": {
+				"icon": "mdi:twitter",
+				"link": "https://twitter.com/MajorTimbWlf21"
+			},
+			"LinkedIn": {
+				"icon": "mdi:linkedin",
+				"link": "https://www.linkedin.com/in/abhinav-rajeev-kumar"
+			},
+			"Github": {
+				"icon": "mdi:github",
+				"link": "https://github.com/MajorTimberWolf"
+			}
+		},
+		"darkMode": true,
+		"footer": "Quantum and ML is the [future.](/)",
+		"navbar": {
+			"title": "Abhinav Rajeev Kumar",
+			"separator": "/",
+			"links": [
+				{
+					"title": "Resume",
+					"url": "https://drive.google.com/file/d/1XjMSZS-jSOD17uQ7zoL1aSpw_0Ey5QiB/view?usp=drivesdk"
+				}
+			]
+		}
+	},
+	"sections": [
+		{
+			"title": "Experience",
+			"data": [
+				{
+					"title": "Quantum Computing Lab",
+					"designation": "Research Assistant",
+					"location": "SRM University, Chennai",
+					"duration": "February 2024 - Present",
+					"description": [
+						"Currently researching Quantum Key Distribution Protocol and Error Correction techniques to improve Quantum Communication",
+						"Engaged in the development of a Quantum Key Distribution protocol utilizing Qiskit and IBM Quantum Experience's Quantum Computers for practical implementation.",
+						"Guided by Dr. Gayathri, Assistant Professor in the Department of Computer Science and Engineering at SRMIST, for insightful advice and direction."
+					],
+					"links": [
+						{
+							"icon": "mdi:github",
+							"text": "Github Link",
+							"link": "https://github.com/MajorTimberWolf/quantum-teleportation"
+						}
+					],
+					"image": "srm2.png",
+					"tags": ["All", "Quantum"]
+				},
+				{
+					"title": "Google",
+					"designation": "Software Engineer",
+					"location": "San Francisco, USA",
+					"duration": "May 2023 - Present",
+					"description": [
+						"Implemented a data-driven approach with the help of XAI methods with LIME technique to refine inappropriate question detection, leading to a 20% reduction in false positives based on user feedback.",
+						"Implemented chain-of-thought prompting, specifically a template-based approach, to enhance the reasoning capabilities of large language models for multi-step tasks. This technique improved the F1 score by 24% compared to baseline models without CoT prompting.",
+						"Developed a solution utilizing the Lorentz-ODE equation and symbolic reasoning for questions involving Ordinary Differential Equations, enabling efficient handling of complex mathematical problems."
+					],
+					"image": "Google.png",
+					"tags": ["All", "Machine Learning"]
+				},
+				{
+					"title": "SuperImage",
+					"designation": "Machine Learning Engineer",
+					"location": "Chennai, India",
+					"duration": "December 2022 - February 2023",
+					"description": [
+						"Contributed to the development of an image up-scaling app by utilizing the MNN DeepLearning Framework and Real-ESRGAN algorithm for 4x image resolution improvement achieving a PSNR value of 38dB..",
+						"Integrated a fine-tuned ESRGAN module for image scaling overcoming memory constraints on mobile devices.",
+						"Achieved a 30% reduction in inference time by harnessing MNN’s quantization capabilities along with hardware based acceleration on Vulkan/OpenCL based devices."
+					],
+					"image": "SuperImage.png",
+					"tags": ["All", "Machine Learning"]
+				}
+			]
+		},
+		{
+			"title": "Projects",
+			"data": [
+				{
+					"title": "Quantum Teleportation",
+					"duration": "February 2024 - Present",
+					"location": "Chennai, India",
+					"description": [
+						"Integrated Adaptive Shots feature which dynamically adjusts the number of shots required based on the desired confidence level of the output.",
+						"Implemented a 3-bit quantum error correction mechanism to reduce the errors that may arise while performing teleportation in NISQ devices",
+						"Integrated the use of NVIDIA’s CuQuantum libraries to enhance the performance by around 12%"
+					],
+					"links": [
+						{
+							"icon": "mdi:github",
+							"text": "Github Link",
+							"link": "https://github.com/MajorTimberWolf/quantum-teleportation"
+						}
+					],
+					"image": "circuit.png",
+					"tags": ["Quantum", "All"]
+				},
+				{
+					"title": "ReportEase",
+					"duration": "January 2024",
+					"location": "Chennai, India",
+					"description": [
+						"Finetuned Mistral-LLM on a custom dataset allowing users to upload FIRs and get IPC & CrPC Suggestions.",
+						"Incorporated few shot technique with adaptive prompts to enhance the LLM’s performance on Hindi text classification tasks, overcoming the limited labelled data.",
+						"Leveraged sentiment analysis techniques to identify potential inconsistencies in emotional states within the FIR text"
+					],
+					"links": [
+						{
+							"icon": "mdi:github",
+							"text": "Github Link",
+							"link": "https://github.com/MajorTimberWolf/ReportEase"
+						}
+					],
+					"image": "ReportEase.png",
+					"tags": ["All", "Machine Learning"]
+				},
+				{
+					"title": "SurgeProtector",
+					"duration": "February 2023",
+					"location": "California, USA",
+					"description": [
+						"Winner of the Stanford TreeHacks Track ‘Best Hack using AI/ML’ by Pear. Built a drone and dashboard capable of detecting stampedes.",
+						"Trained using Pytorch and CNN for marking heads in a crowd to generate heatmaps using Matplotlib and OpenCV.",
+						"Developed a customized heatmap algorithms to highlight crowds, alongside temporal averaging techniques to enhance the stability of bounding boxes generated by the model."
+					],
+					"links": [
+						{
+							"icon": "mdi:github",
+							"text": "Github Link",
+							"link": "https://github.com/MajorTimberWolf/CrowdSafe"
+						}
+					],
+					"image": "SurgeProtector.png",
+					"tags": ["All", "Machine Learning"]
+				},
+				{
+					"title": "MIT IquHack '23",
+					"duration": "January 2023 - February 2023",
+					"location": "Massachusetts, USA",
+					"description": [
+						"Secured 3rd position in the IonQ Remote Challenge by using Python with Cirq to design a quantum circuit for amplitude encoding of image data to ensure lossless input.",
+						"Utilized Pennylane on quantum circuits to train QNNs for image classification task for faster throughput of data."
+					],
+					"links": [
+						{
+							"icon": "mdi:github",
+							"text": "Github Link",
+							"link": "https://github.com/MajorTimberWolf/2023_IonQ_Remote"
+						}
+					],
+					"image": "IquHack.png",
+					"tags": ["All", "Quantum", "Machine Learning"]
+				}
+			]
+		},
+		{
+			"title": "Communities",
+			"data": [
+				{
+					"title": "Next Tech Lab",
+					"designation": "Member - Satoshi Lab",
+					"location": "Chennai, India",
+					"duration": "May 2023 - Present",
+					"description": [
+						"Part of the distinguished **QS Award-winning lab**, recognized twice for research excellence.",
+						"Part of the renowned **Satoshi Lab** where I work on various project while collaborating with other members, driving cutting-edge research in **Neural Networks** and **Quantum Computing**."
+					],
+					"links": [
+						{
+							"icon": "mdi:web",
+							"text": "Website",
+							"link": "https://nexttechlab.club"
+						}
+					],
+					"image": "ntl.png",
+					"tags": ["All", "Quantum"]
+				},
+				{
+					"title": "Blockchain Club SRM",
+					"designation": "Associate Tech Lead",
+					"location": "Chennai, India",
+					"duration": "February 2023 - Present",
+					"description": [
+						"Led a workshop on Git, teaching members about the functionalities of Git and GitHub.",
+
+						"Led the revamp of the club website along with the development of the Layer 2.0 Hackfest website, which is the club's flagship event.",
+						
+						"Offered mentorship to a cohort of **500+ participants** throughout the Layer Hackathon.",
+
+						"Represented the club in community events like FILBangalore and Solana Hacker House."
+					],
+					"links": [
+						{
+							"icon": "mdi:web",
+							"text": "Website",
+							"link": "https://blockchainclubsrm.com"
+						}
+					],
+					"image": "logo.png",
+					"tags": ["All", "Blockchain"]
+				}
+			]
+		}
+	]
+}
