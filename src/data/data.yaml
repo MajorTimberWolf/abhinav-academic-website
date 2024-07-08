@@ -14,7 +14,7 @@ info:
         text: 'SRM University'
   about:
     description:
-      - "I am an undergraduate student currently studying at SRM Institute of Science and Technology, pursuing a bachelor's degree in Computer Science with specialization in Blockchain Technology. Currently, my research revolves around Trapped Ion Qubits and its utilization in Quantum Neural Networks (QNNs). I am currently collaborating with Dr. Gayathri M on research pertaining to Quantum Key Distribution Protocol and Error Correction techniques, aimed at advancing our understanding of Quantum Communication. Furthermore, I contribute to the Satoshi Division at [NextTechLab](https://nexttechlab.club), researching the interconnections between Neural Networks and Quantum Computing."
+      - "I am an undergraduate student currently studying at SRM Institute of Science and Technology, pursuing a bachelor's degree in Computer Science with specialization in Blockchain Technology. Currently, my research revolves around **Trapped Ion Qubits and its utilization in Quantum Neural Networks (QNNs).** I am currently collaborating with Dr. Gayathri M on research pertaining to Quantum Key Distribution Protocol and Error Correction techniques, aimed at advancing our understanding of Quantum Communication. Furthermore, I contribute to the Satoshi Division at [NextTechLab](https://nexttechlab.club), researching the interconnections between Neural Networks and Quantum Computing."
     links:
       - icon: 'mdi:document'
         text: 'Resume'
@@ -69,6 +69,7 @@ sections:
             link: 'https://github.com/MajorTimberWolf/quantum-teleportation'
             text: 'Github Link'
         tags: ['Quantum']
+        # Google
       - title: 'Google'
         designation: 'Software Engineer Intern'
         location: 'San Francisco, USA'
@@ -90,6 +91,7 @@ sections:
             link: 'https://research.google/blog/language-models-perform-reasoning-via-chain-of-thought/'
         image: 'Google.png'
         tags: ['Machine Learning']
+        # SuperImage
       - title: 'SuperImage'
         designation: 'Machine Learning Engineer'
         location: 'Chennai, India'
@@ -104,56 +106,87 @@ sections:
             Achieved a 30% reduction in inference time by harnessing MNN’s 
             quantization capabilities along with hardware based acceleration on Vulkan/OpenCL based devices."
         links:
-          - icon: 'mdi:google'
-            text: 'Research Paper'
-            link: 'https://research.google/blog/language-models-perform-reasoning-via-chain-of-thought/'
-        image: 'Google.png'
+          - icon: 'mdi:web'
+            text: 'Website'
+            link: 'https://superimage.io/'
+        image: 'SuperImage.png'
         tags: ['Machine Learning']
   - title: 'Projects'
     data:
       - title: 'Quantum Teleportation'
         description:
           - 'Engineered a Quantum Data Teleportation system with **Qiskit** using 3 qubits, employing strategic Bell pair utilization and harnessing the principles of **Quantum Superposition** and **Quantum Entanglement**. Implemented a robust teleportation mechanism, showcasing expertise in quantum algorithms.'
-          - 'Incorporated insights from the ”Teleporting an unknown quantum state via dual classical and Einstein-Podolsky-Rosen channels” paper to enhance the performance of the system. Demonstrated a nuanced understanding of cutting-edge research, elevating the teleportation capabilities through dual classical and quantum channels.'
-          - 'Established 2 entangled qubits for secure and efficient quantum data teleportation between distant locations through strategic utilization of Bell pair utilization and the principles of **Quantum Superposition** and **Entanglement**.'
-          - 'Implemented 3-bit quantum error correction mechanisms to ensure data accuracy during teleportation processes.'
-          - 'Accelerated data teleportation time by a notable 12% by integrating CUDA Quantum, enhancing overall system efficiency and performance.'
+          - 'Integrated Adaptive Shots feature which dynamically adjusts the number of shots required based on the desired confidence level of the output.'
+          - 'Implemented a 3-bit quantum error correction mechanism to reduce the errors that may arise while performing teleportation in NISQ devices.'
+          - 'Integrated the use of NVIDIA’s CuQuantum libraries to enhance the performance by around 12%.'
         links:
           - icon: 'mdi:github'
             text: 'Github Link'
-            link: 'https://github.com/vaishnav-mk/quantum-teleportation'
+            link: 'https://github.com/MajorTimberWolf/quantum-teleportation'
         image: 'circuit.png'
         tags: ['Quantum']
-      - title: 'Hamiltonian Grapher'
+        # ReportEase
+      - title: 'ReportEase'
         description:
-          - 'Implemented an efficient quantum algorithm using **Qiskit**, specifically applying the Variational Quantum Eigensolver (VQE) algorithm with the TwoLocal ansatz and an entanglement structure for Hamiltonian analysis. This involved architecting a robust quantum circuit tailored for analyzing Hamiltonians, enabling accurate eigenvalue computations.'
-          - 'Utilized the Simultaneous Perturbation Stochastic Approximation (SPSA) algorithm to optimize the ansatz further, ensuring precision in eigenvalue computations. By fine-tuning the ansatz parameters, the algorithm achieved optimal performance in quantum computations, particularly in handling complex eigenstates and eigenvalues.'
-          - 'Architected a responsive web application using **FastAPI**, **Next.js**, and **TailwindCSS** to complement the quantum algorithm. The application provides seamless user interaction and visual appeal, allowing users to input Hamiltonian parameters and visualize the corresponding quantum states and eigenvalues in real-time.'
+          - 'Finetuned Mistral-LLM on a custom dataset allowing users to upload FIRs and get IPC & CrPC Suggestions.'
+          - 'Incorporated few shot technique with adaptive prompts to enhance the LLM’s performance on Hindi text classification tasks, overcoming the limited labelled data.'
+          - 'Leveraged sentiment analysis techniques to identify potential inconsistencies in emotional states within the FIR text'
         links:
           - icon: 'mdi:github'
             text: 'Github Link'
-            link: 'https://github.com/vaishnav-mk/hamiltonian-grapher'
-        image: 'hamiltonian.png'
-        tags: ['Quantum', 'Full-Stack']
+            link: 'https://github.com/MajorTimberWolf/ReportEase'
+        image: 'ReportEase.png'
+        tags: ['Machine Learning']
+        # SurgeProtector
+      - title: 'SurgeProtector'
+        description:
+          - 'Winner of the Stanford TreeHacks Track **Best Hack using AI/ML** by Pear. Built a drone and dashboard capable of detecting stampedes.'
+          - 'Trained using Pytorch and CNN for marking heads in a crowd to generate heatmaps using Matplotlib and OpenCV.'
+          - 'Developed a customized heatmap algorithms to highlight crowds, alongside temporal averaging techniques to enhance the stability of bounding boxes generated by the model.'
+        links:
+          - icon: 'mdi:github'
+            text: 'Github Link'
+            link: 'https://github.com/MajorTimberWolf/CrowdSafe'
+        image: 'Surge-Protector.png'
+        tags: ['Machine Learning']
+        # MIT IquHack
+      - title: 'MIT iQuHACK 2023'
+        description:
+          - 'Secured **3rd position** in the IonQ Remote Challenge by using Python with Cirq to design a quantum circuit for amplitude encoding of image data to ensure lossless input.'
+          - 'Utilized Pennylane on quantum circuits to train QNNs for image classification task for faster throughput of data.'
+        links:
+          - icon: 'mdi:github'
+            text: 'Github Link'
+            link: 'https://github.com/MajorTimberWolf/2023_IonQ_Remote'
+        image: 'IquHack.png'
+        tags: ['Quantum']
   - title: 'Communities'
     data:
       - title: 'Next Tech Lab'
-        designation: 'Member - McCarthy Lab'
-        location: 'Chennai, IN'
-        duration: 'September 2023 - Present'
+        designation: 'Member - Satoshi Lab'
+        location: 'Chennai, India'
+        duration: 'May 2023 - Present'
         description:
-          - 'Part of the distinguished QS Award-winning lab, recognized twice for research excellence. Acknowledged for achievements, with a focus on advanced machine learning methods within the renowned **McCarthy Lab** where I orchestrated seamless project collaboration, driving cutting-edge research in **AI** and **Quantum Computing**.'
-          - 'Developed Next Tech Lab’s website using **Next.js, TailwindCSS, and Sanity.io CMS**, achieving a perfect **100%** score on Lighthouse performance metrics, ensuring modern and optimized user experience.'
-          - 'Created the **NTL Quest Site**, a secret recruiting challenge, based on the **5 labs** under Next Tech Lab.'
+          - 'Part of the distinguished **QS Award-winning lab**, recognized twice for research excellence.'
+          - 'Part of the renowned **Satoshi Lab** where I work on various project while collaborating with other members, driving cutting-edge research in **Quantum Neural Networks** and **Trapped Ion Systems.**'
         links:
           - icon: 'mdi:web'
             text: 'Website'
             link: 'https://nexttechlab.club'
         image: 'ntl.png'
-        tags: ['Machine Learning']
-      - title: 'Data Science Community'
-        designation: 'Research Supervisor'
-        location: 'SRM, Chennai'
-        duration: 'December 2022 - Present'
+        tags: ['Quantum Computing']
+      - title: 'Blockchain Club SRM'
+        designation: 'Technical Lead'
+        location: 'Chennai, India'
+        duration: 'February 2023 - Present'
         description:
-          - 'Managed and guided web development initiatives, creating an efficient [URL shortener](https://example.com) using **Next.js, MongoDB, and Redis** for optimized'
+          - "Organized a workshop on Git, teaching members about the functionalities of Git and GitHub."
+          - "Led the revamp of the club website along with the development of the Layer 2.0 Hackfest website, which is the club's flagship event."
+          - "Offered mentorship to a cohort of **500+ participants** throughout the Layer Hackathon."
+          - "Represented the club in community events like FILBangalore and Solana Hacker House."
+        links:
+          - icon: 'mdi:web'
+            text: 'Website'
+            link: 'https://blockchainclubsrm.com'
+        image:  'logo.png'
+        tags:  ['Blockchain']
