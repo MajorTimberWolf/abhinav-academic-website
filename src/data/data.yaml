@@ -14,7 +14,7 @@ info:
         text: 'SRM University'
   about:
     description:
-      - "I am an undergraduate student currently studying at SRM Institute of Science and Technology, pursuing a bachelor's degree in Computer Science with specialization in Blockchain Technology. Currently, my research revolves around Trapped Ion Qubits and its utilization in Quantun Neural Networks (QNNs). I am currently collaborating with Dr. Gayathri M on research pertaining to Quantum Key Distribution Protocol and Error Correction techniques, aimed at advancing our understanding of Quantum Communication. Furthermore, I contribute to the Satoshi Division at [NextTechLab](https://nexttechlab.club), researching the interconnections between Neural Networks and Quantum Computing."
+      - "I am an undergraduate student currently studying at SRM Institute of Science and Technology, pursuing a bachelor's degree in Computer Science with specialization in Blockchain Technology. Currently, my research revolves around Trapped Ion Qubits and its utilization in Quantum Neural Networks (QNNs). I am currently collaborating with Dr. Gayathri M on research pertaining to Quantum Key Distribution Protocol and Error Correction techniques, aimed at advancing our understanding of Quantum Communication. Furthermore, I contribute to the Satoshi Division at [NextTechLab](https://nexttechlab.club), researching the interconnections between Neural Networks and Quantum Computing."
     links:
       - icon: 'mdi:document'
         text: 'Resume'
@@ -39,7 +39,7 @@ info:
     Github:
       icon: 'mdi:github'
       link: 'https://github.com/MajorTimberWolf'
-  footer: "The best way to predict the future is to [invent it.](/)"
+  footer: 'The best way to predict the future is to [invent it.](/)'
   navbar:
     title: 'Abhinav Rajeev Kumar'
     separator: '/'
@@ -47,33 +47,68 @@ info:
 sections:
   - title: 'Experience'
     data:
-      - title: 'Distributed Research on Emerging Applications & Machines (DREAM) lab'
-        designation: 'Research Intern'
-        location: 'Indian Institute of Science, Bangalore'
-        duration: 'June 2024 - Present'
-        description:
-          - '  - Develop workflow orchestration logic to coordinate execution of FaaS functions across clouds.'
-        image: 'iisc.png'
-        links:
-          - link: 'https://dream-lab.in/hybrid-clouds-quantum'
-            text: 'DREAM:lab'
-          - link: 'https://doi.org/10.1109/eScience55777.2022.00057'
-            text: 'XFaaS Paper [eScience 2022, CCGRID 2023]'
-        tags: ['Cloud']
       - title: 'Quantum Computing Lab'
         designation: 'Research Assistant'
-        location: 'SRM University, Chennai'
+        location: 'SRM Institute of Science and Technology, Chennai'
         duration: 'February 2024 - Present'
         description:
-          - 'Currently focused on developing an efficient method for data protection using Quantum Key Distribution (QKD) protocols.'
-          - "Engaged in the development of a Quantum Key Distribution protocol utilizing Qiskit and IBM Quantum Experience's Quantum Computers for practical implementation."
-          - 'Guided by Dr. Gayathri, Assistant Professor in the Department of Computer Science and Engineering at SRMIST, for insightful advice and direction.'
+          - >-
+            Currently researching Quantum Key Distribution Protocol and Error
+            Correction techniques to improve Quantum Communication
+          - >-
+            Engaged in the development of a Quantum Key Distribution protocol
+            utilizing Qiskit and IBM Quantum Experience's Quantum Computers
+            for practical implementation.
+          - >-
+            Guided by Dr. Gayathri, Assistant Professor in the Department of
+            Computer Science and Engineering at SRMIST, for insightful advice
+            and direction
+        image: 'srm2.png'
         links:
           - icon: 'mdi:github'
+            link: 'https://github.com/MajorTimberWolf/quantum-teleportation'
             text: 'Github Link'
-            link: 'https://github.com/vaishnav-mk/quantum-teleportation'
-        image: 'srm2.png'
         tags: ['Quantum']
+      - title: 'Google'
+        designation: 'Software Engineer Intern'
+        location: 'San Francisco, USA'
+        duration: 'May 2023 - May 2024'
+        description:
+          - >-
+            Implemented a data-driven approach with the help of XAI methods with LIME technique to refine inappropriate question detection, 
+            leading to a 20% reduction in false positives based on user feedback.
+          - >-
+            Implemented chain-of-thought prompting, specifically a template-based approach, 
+            to enhance the reasoning capabilities of large language models for multi-step tasks. 
+            This technique improved the F1 score by 24% compared to baseline models without CoT prompting.
+          - >-
+            Developed a solution utilizing the Lorentz-ODE equation and symbolic reasoning for questions involving 
+            Ordinary Differential Equations, enabling efficient handling of complex mathematical problems.
+        links:
+          - icon: 'mdi:google'
+            text: 'Research Paper'
+            link: 'https://research.google/blog/language-models-perform-reasoning-via-chain-of-thought/'
+        image: 'Google.png'
+        tags: ['Machine Learning']
+      - title: 'SuperImage'
+        designation: 'Machine Learning Engineer'
+        location: 'Chennai, India'
+        duration: 'December 2022 - February 2023'
+        description:
+          - >-
+            Contributed to the development of an image up-scaling app by utilizing the MNN DeepLearning Framework and 
+            Real-ESRGAN algorithm for 4x image resolution improvement achieving a PSNR value of 38dB.
+          - >-
+            Integrated a fine-tuned ESRGAN module for image scaling overcoming memory constraints on mobile devices.
+          - >-
+            Achieved a 30% reduction in inference time by harnessing MNN’s 
+            quantization capabilities along with hardware based acceleration on Vulkan/OpenCL based devices."
+        links:
+          - icon: 'mdi:google'
+            text: 'Research Paper'
+            link: 'https://research.google/blog/language-models-perform-reasoning-via-chain-of-thought/'
+        image: 'Google.png'
+        tags: ['Machine Learning']
   - title: 'Projects'
     data:
       - title: 'Quantum Teleportation'
@@ -121,27 +156,4 @@ sections:
         location: 'SRM, Chennai'
         duration: 'December 2022 - Present'
         description:
-          - 'Managed and guided web development initiatives, creating an efficient [URL shortener](https://example.com) using **Next.js, MongoDB, and Redis** for optimized caching.'
-          - 'Achieved a substantial *170% reduction* in load time for the [Club’s website](https://dscommunity.in), optimizing it from **18.7 seconds** to approximately **1.5 seconds**.'
-          - 'Authored diverse [Medium articles](https://medium.com/data-science-community-srm) for the Data Science Medium Journal, contributing to the club’s knowledge-sharing endeavors and reaching an audience of over **100,000+**.'
-          - 'Mentored peers and conducted weekly research paper reviews, staying abreast of advancements in *AI* and *Quantum Computing*.'
-          - 'Offered mentorship to a cohort of **300+ participants** throughout the Data Science Hackathon.'
-        links:
-          - icon: 'mdi:web'
-            text: 'Website'
-            link: 'https://dscommunity.in'
-        image: 'dsc.png'
-        tags: ['Web Development']
-      - title: 'GDSC SRM'
-        designation: 'Technical Team Member'
-        location: 'SRM, Chennai'
-        duration: 'May 2023 - Present'
-        description:
-          - 'Worked on the Events Management System, a web application that streamlined event management processes, ensuring seamless coordination and communication among the team members. The application was developed using **Next.js, TailwindCSS, and Firebase**.'
-          - "Created a custom wrapper for **GCP's Cloud Storage** to facilitate efficient file uploads and downloads, enhancing the user experience and ensuring optimal performance."
-        links:
-          - icon: 'mdi:web'
-            text: 'Website'
-            link: 'https://gdscsrm.com'
-        image: 'gdsc.png'
-        tags: ['Web Development']
+          - 'Managed and guided web development initiatives, creating an efficient [URL shortener](https://example.com) using **Next.js, MongoDB, and Redis** for optimized'
