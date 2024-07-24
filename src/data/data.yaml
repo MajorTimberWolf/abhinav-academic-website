@@ -113,6 +113,19 @@ sections:
         tags: ['Machine Learning']
   - title: 'Projects'
     data:
+    # Mini Circuit Cutting
+      - title: 'Mini Circuit Cutting'
+        description:
+          - 'Implemented a **Quantum Circuit Cutting technique** based on the research paper ”*Parallelizing Quantum-Classical Work-loads,*” enabling the execution of larger quantum circuits on quantum devices with limited qubit connectivity.'
+          - 'Developed an algorithm to **automatically find optimal cut points** in quantum circuits, reducing the **circuit depth by up to 30%** while maintaining the integrity of quantum operations.'
+          - 'Implemented **dynamic partitioning of quantum circuits**, allowing for efficient distribution of workloads across multiple quantum processors or simulation backends.'
+        links:
+          - icon: 'mdi:github'
+            text: 'Github Link'
+            link: 'https://github.com/MajorTimberWolf/mini-circuit-cutting'
+        image: 'circuit-cutting.png'
+        tags: ['Quantum']
+    # Quantum Teleportation
       - title: 'Quantum Teleportation'
         description:
           - 'Engineered a Quantum Data Teleportation system with **Qiskit** using 3 qubits, employing strategic Bell pair utilization and harnessing the principles of **Quantum Superposition** and **Quantum Entanglement**. Implemented a robust teleportation mechanism, showcasing expertise in quantum algorithms.'
