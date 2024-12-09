@@ -14,7 +14,7 @@ info:
         text: 'SRM University'
   about:
     description:
-      - "I am an undergraduate student currently studying at SRM Institute of Science and Technology, pursuing a bachelor's degree in Computer Science with specialization in Blockchain Technology. Currently, my research revolves around **Trapped Ion Qubits and its utilization in Quantum Neural Networks (QNNs).** I am currently collaborating with Dr. Gayathri M on research pertaining to Quantum Key Distribution Protocol and Error Correction techniques, aimed at advancing our understanding of Quantum Communication. Furthermore, I contribute to the Satoshi Division at [NextTechLab](https://nexttechlab.in), researching the interconnections between Neural Networks and Quantum Computing."
+      - "I am an undergraduate student currently studying at SRM Institute of Science and Technology, pursuing a bachelor's degree in Computer Science with specialization in Blockchain Technology. Currently, my research revolves around **Quantum Computing, specifically using Machine Learning with Trapped Ion/Superconducting Qubits to dynamically predict and adapt error corrections strategies to improve quantum coherence..** I am currently collaborating with Dr. Gayathri M on research pertaining to Quantum Key Distribution Protocol and Error Correction techniques, aimed at advancing our understanding of Quantum Communication. Furthermore, I contribute to the Satoshi Division at [NextTechLab](https://nexttechlab.in), researching the interconnections between Neural Networks and Quantum Computing."
     links:
       - icon: 'mdi:document'
         text: 'Resume'
